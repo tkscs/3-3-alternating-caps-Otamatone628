@@ -33,5 +33,6 @@ def alt_caps(original_string):
 
     return new_string
 
-print(alt_caps("Why am I doing this"))
+words = input("What is your message?")
+print(alt_caps(words))
 
